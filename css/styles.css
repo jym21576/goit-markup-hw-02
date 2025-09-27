@@ -24,7 +24,7 @@ body {
     background-color: var(--white);
     font-weight: 400;
     line-height: 150%;
-    font-size: 16px;
+    text-align: center;    font-size: 16px;
     letter-spacing: 0.02em;
 }
 
@@ -32,7 +32,6 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
-    text-align: center;
 }
 
 h3 {
@@ -56,7 +55,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -105,7 +103,6 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
-    text-align: center;
     color: var(--white);
 }
 
@@ -121,19 +118,23 @@ h1 {
     align-items: center;
 }
 
+.hero-title {
+    margin-bottom: 40px;
+    max-width: 496px;
+}
 .hero-button {
+    font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em; 
-    text-align: center;
     color: var(--white);
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    border: none;
     cursor: pointer;
-    background-color: var(--iris);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
 }
 
 .hero-button:hover,
@@ -145,36 +146,58 @@ h1 {
 .values {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: left;text-align: left;
     gap: 40px;
     margin-bottom: 60px;
 }
 .values-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;   
 }
 .values-text {
+    color: var(--slate);
 }
 .team {
+    width: 1440px;
+    height: 732px;
+    background: var(--cloud);
 }
-.team-img {
-}
-.team-header {
+/*.team-img {
+}*/
+
+.team-header   {
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .team-text {
+    color: var(--slate);
 }
 .portfolio {
+    width: 1128px;
+height: 1000px;
 }
-.portfolio-img {
-}
+/*.portfolio-img {
+}*/
+
 .portfolio-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: left;
 }
 .portfolio-text {
+    color: var(--slate);
+    text-align: left;
 }
-.footer-logo {
+
+footer {
+    width: 1440px;
+    height: 312px;
+    background: var(--navy-blue);
+    display: flex;
+    align-items: left;
 }
-.footer-web {
-}
-.copyright {
-}
+
 
 .footer-logo {
     width: 115px;
@@ -183,9 +206,17 @@ h1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
+    color: var(--cloud);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-web {
     color: var(--iris);
+}
+
+.copyright {
+    width: 264px;
+    height: 112px;
+    color: var(--cloud);
+    text-align: left;
 }
