@@ -79,6 +79,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
@@ -104,7 +105,8 @@ a {
 font-style: normal;
 }
 
-.contacts:hover, .contacts:focus {
+.contacts:hover, 
+.contacts:focus {
     color: var(--iris);
     cursor: pointer;
     outline: none;
@@ -115,6 +117,7 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     color: var(--white);
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -157,6 +160,7 @@ h1 {
 
 .team {
     letter-spacing: 0.02em; 
+    background-color: var(--cloud);
 }
 
 .team-member {
@@ -225,7 +229,7 @@ footer {
 }
 
 .footer-studio {
-    color: var(--navy-blue);
+    color: var(--cloud);
 }
 
 .copyright {
