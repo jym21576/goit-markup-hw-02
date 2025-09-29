@@ -57,19 +57,20 @@ a {
     color: inherit;
 }
 
-.logo-top {
+.header-logo {
     border: 1px solid #000;
     font-family: var(--font-second);
     font-weight: 700;
-    color: var(--iris);
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 117%;
+    color: var(--cloud);
+    letter-spacing: 0.03em; 
+    color: var(--iris);
     text-transform: uppercase;
 }
 
 
-.nav-studio {
+.header-studio {
     color: var(--navy-blue);
 }
 
@@ -215,7 +216,6 @@ footer {
     background: var(--navy-blue);
 
 }
-
 
 .footer-logo {
     font-family: var(--font-second);
