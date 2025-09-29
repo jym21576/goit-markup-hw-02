@@ -106,12 +106,6 @@ a {
 font-style: normal;
 }
 
-.contacts:hover, 
-.contacts:focus {
-    color: var(--iris);
-    cursor: pointer;
-    outline: none;
-} 
 
 h1 {
     font-weight: 700;
