@@ -90,21 +90,21 @@ a {
     cursor: pointer;
 }
 
-
 .header-link {
     color: var(--slate);    
-}
-
-.header-link:hover, 
-.header-link:focus {
-    color: var(--iris);
-    outline: none;
-    cursor: pointer;
 }
 
 .contacts {
 font-style: normal;
 }
+
+.contacts-link:hover, 
+.contacts-link:focus {
+    color: var(--iris);
+    outline: none;
+    cursor: pointer;
+}
+
 
 
 h1 {
