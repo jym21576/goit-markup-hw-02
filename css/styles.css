@@ -19,16 +19,13 @@
 }
 
 body {
-    margin: 0;
     font-family: var(--font-main);
     color: var(--slate);
     background-color: var(--white);
     font-weight: 400;
-    line-height: 1.5;
-    text-align: center;    
+    line-height: 1.5; 
     font-size: 16px;
     letter-spacing: 0.02em;
-    outline: none;
 }
 
 h2 {
@@ -58,7 +55,6 @@ a {
 }
 
 .header-logo {
-    border: 1px solid #000;
     font-family: var(--font-second);
     font-weight: 700;
     font-size: 18px;
@@ -90,9 +86,6 @@ a {
     cursor: pointer;
 }
 
-.header-link {
-    color: var(--slate);    
-}
 
 .contacts {
 font-style: normal;
@@ -101,7 +94,6 @@ font-style: normal;
 .contacts-link:hover, 
 .contacts-link:focus {
     color: var(--iris);
-    outline: none;
     cursor: pointer;
 }
 
