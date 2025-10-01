@@ -92,7 +92,7 @@ a {
 font-style: normal;
 }
 
-.contacts-link:hover, 
+.contacts-link:hover,
 .contacts-link:focus {
     color: var(--ocean);
     cursor: pointer;
@@ -106,6 +106,7 @@ h1 {
     line-height: 1.07;
     color: var(--white);
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero {
